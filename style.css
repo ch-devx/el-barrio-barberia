@@ -477,6 +477,7 @@ body.barber_version .sidebar-nav li a.active{
 
 .owl-carousel img{
 	filter: drop-shadow(0 0 10px #000);
+	margin: auto;
 }
 
 @media(min-width: 500px){	
@@ -488,32 +489,32 @@ body.barber_version .sidebar-nav li a.active{
 		transform: translateY(-25%);
 	}
 	.owl-item p, .owl-item p{
-		transform: translateY(-220%);
+		transform: translateY(-180%);
 	}
 	.big-tagline a, .owl-item a{
-		transform: translateY(-440%);
+		transform: translateY(-290%);
 	}
 }
 @media(min-width: 600px){
 	.owl-carousel img{
-		transform: translateY(-30%);
+		transform: translateY(-20%);
 	}
 	.owl-item p, .owl-item p{
 		transform: translateY(-260%);
 	}
 	.big-tagline a, .owl-item a{
-		transform: translateY(-500%);
+		transform: translateY(-400%);
 	}
 }
 @media(min-width: 700px){
 	.owl-carousel img{
-		transform: translateY(-30%);
+		transform: translateY(-20%);
 	}
 	.owl-item p, .owl-item p{
-		transform: translateY(-260%);
+		transform: translateY(-400%);
 	}
 	.big-tagline a, .owl-item a{
-		transform: translateY(-500%);
+		transform: translateY(-550%);
 	}
 }
 
@@ -522,10 +523,10 @@ body.barber_version .sidebar-nav li a.active{
 		transform: translateY(-25%);
 	}
 	.owl-item p, .owl-item p{
-		transform: translateY(-200%);
+		transform: translateY(-260%);
 	}
 	.big-tagline a, .owl-item a{
-		transform: translateY(-420%);
+		transform: translateY(-360%);
 	}	
 }
 
@@ -534,24 +535,49 @@ body.barber_version .sidebar-nav li a.active{
 		transform: translateY(-20%);
 	}
 	.owl-item p, .owl-item p{
-		transform: translateY(-120%);
+		transform: translateY(-100%);
 	}
 	.big-tagline a, .owl-item a{
-		transform: translateY(-260%);
+		transform: translateY(-180%);
 	}	
 }
+@media(min-width: 1100px){
+	.owl-carousel img{
+		transform: translateY(-20%);
+	}
+	.owl-item p, .owl-item p{
+		transform: translateY(-150%);
+	}
+	.big-tagline a, .owl-item a{
+		transform: translateY(-270%);
+	}	
+}
+
+
+.sidebar-nav li:hover{
+	cursor: pointer;
+}
+
+
 @media(min-width: 1200px){
 	.owl-carousel img{
 		transform: translateY(-20%);
 	}
 	.owl-item p, .owl-item p{
-		transform: translateY(-200%);
+		transform: translateY(-300%);
 	}
 	.big-tagline a, .owl-item a{
 		transform: translateY(-420%);
 	}	
 }
 
+@media(max-width: 375px){
+	.text-center{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
 
 #home{
 	background-repeat: no-repeat;
@@ -1214,10 +1240,10 @@ body.barber_version .about-tab .nav-tabs > li a:hover{
 
 @media(max-width: 400px){
 	.map-container{
-		height: 145vw;
+		height: 175vw;
 	}
 	.map{
-		height: 60vw;
+		height: 80vw;
 	}
 }
 @media(max-width: 350px){
